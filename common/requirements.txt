@@ -1,0 +1,10 @@
+# Logging
+loguru
+
+# Encryption
+cryptography
+
+# Utilities (if any specific utility libraries are needed, add them here)
+
+# Testing
+pytest
