@@ -16,6 +16,9 @@ python-dateutil = ">=2.7"
 redis = ">=3.0"
 sqlalchemy = ">=1.2"
 cryptography = "*"
+pytest-mock = "*"
+loguru = "*"
+sentry-sdk = "*"
 
 [requires]
 python_version = "3.9"

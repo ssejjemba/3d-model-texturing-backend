@@ -1,5 +1,5 @@
 from libs.error_handling.exceptions import BaseException, FieldError, FieldErrorsMixin
-from libs.error_handling.remote import exceptions as remote_exceptions
+from libs.error_handling.remote import BadRequestError
 
 
 def test_base_exception():
@@ -27,7 +27,7 @@ def test_field_errors():
 
 
 def test_remote_exceptions():
-    error = remote_exceptions.BadRequestError(
+    error = BadRequestError(
         'Bad', code='bad'
     )
     assert error.message == 'Bad'
