@@ -1,7 +1,7 @@
 import os
 import json
 
-from common.libs.config.exceptions import RequiredValueNotSet
+from libs.config.exceptions import RequiredValueNotSet
 
 
 class Value:

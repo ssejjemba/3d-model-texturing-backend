@@ -1,0 +1,7 @@
+[run]
+omit =
+  libs/version.py
+  libs/tests/*
+  libs/redis/tests/*
+  libs/sqlalchemy/tests/*
+  libs/pytest/*

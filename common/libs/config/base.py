@@ -1,4 +1,4 @@
-from common.libs.config.values import Value
+from libs.config.values import Value
 
 
 class ConfigurationMetaclass(type):
