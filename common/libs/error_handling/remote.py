@@ -1,4 +1,4 @@
-from .exceptions import BaseException, FieldErrorsMixin
+from libs.error_handling.exceptions import BaseException, FieldErrorsMixin
 
 
 class ApiRequestErroruestError(BaseException):
