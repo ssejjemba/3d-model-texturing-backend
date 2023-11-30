@@ -6,6 +6,8 @@ sentry_sdk
 cryptography
 
 # Utilities (if any specific utility libraries are needed, add them here)
+python-dateutil
+cryptography
 
 # Testing
 pytest
