@@ -1,3 +1,8 @@
+from libs.logging import setup_logger;
+
+
+logger = setup_logger()
+
 
 try:
     from cryptography.fernet import Fernet, MultiFernet
