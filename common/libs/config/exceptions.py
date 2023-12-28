@@ -1,2 +1,0 @@
-class RequiredValueNotSet(Exception):
-    pass
